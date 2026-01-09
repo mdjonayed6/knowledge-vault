@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Sharing Codes Here  */
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+.btn-for-all{
+    background-color: #30B868;
+    color: white;
+    width: 164px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    padding: 12px 16px 12px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-for-all:hover {
+    background-color: #8C34EB;
+    color: #fff;
+    box-shadow: 0 8px 18px rgba(42, 52, 83, 0.745);
+}
+/* nav bar styles */
+#menu{
+    /* width: 71%; */
+    /* max-width: 1140px; */
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 120px 30px 120px;
+}
+#menu .menu-container .menu-items ul{
+    display: flex;
+    list-style: none;
+}
+.menu-option{
+    font-size: 20px;
+    font-weight: 600;
+    gap: 32px;
+}
+.menu-option a{
+    color: black;
+}
+.menu-option li a {
+    text-decoration: none;
+}
+.menu-option li:hover {
+    text-decoration:overline;
+    color: rgba(148, 44, 154, 0.643);
+    transition: 5ms;
+}
