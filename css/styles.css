@@ -275,3 +275,38 @@ margin-bottom: 16px;
     font-weight: 500;
     color: #001931;
 }
+/* Conceptual Style here  */
+#conceptual{
+    background-color: #F7F6F2;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 1360px;
+    padding: 80px 0px;
+}
+.early-access-btn{
+    margin: 0 auto;
+}
+.conceptual-description h2{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.conceptual-description p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.free-access{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #627382;
+    margin-top: 24px;
+}
